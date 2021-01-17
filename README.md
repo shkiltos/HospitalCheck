@@ -18,7 +18,7 @@ there is a number of such, but I stopped at [Pushy](https://pushy.me/).
 
 ## How to use
 You will need to change the script constants:
-* fingerprint
+* fingerprint (Needed for https requests. You can get it by expanding [Pushy](https://pushy.me/) certificate in a web browser)
 * post data(got from from Pushy):
   * app key
   * app secret
