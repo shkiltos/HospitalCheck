@@ -15,3 +15,14 @@ An iOS app was developed and it successfully connects to mqtt, sends push notifi
 
 Eventually it was decided to use an existing app that has a phone application and an API to send the mesage,  
 there is a number of such, but I stopped at [Pushy](https://pushy.me/).
+
+## How to use
+You will need to change the script constants:
+* fingerprint
+* post data(got from from Pushy):
+  * app key
+  * app secret
+* STASSID and STAPSK(wifi credentials)
+  
+After this, upload the script to a ESP8266(or another device with WiFi module).  
+Make sure that your scheme has a button in it and it's on the same pin as in script.
