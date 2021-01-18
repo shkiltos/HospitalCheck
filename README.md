@@ -11,13 +11,13 @@ Check the exapmle of work by clicking on video below or [here](https://www.youtu
 alt="IoT button press sends push notification to phone" width="500" height="400" border="10" /></a>
   
   
-An iOS app was developed and it successfully connects to mqtt, sends push notifications, but doesn't work in background mode, so it was put aside.
+An iOS app was developed and it successfully connects to mqtt, sends push notifications, but doesn't work in background mode, so it was put aside(still available in 'HospitalCheck' directory).  
 
 Eventually it was decided to use an existing app that has a phone application and an API to send the mesage,  
 there is a number of such, but I stopped at [Pushy](https://pushy.me/).
 
 ## How to use
-You will need to change the script constants:
+You will need to change constants in the script from 'device' dir:
 * fingerprint (Needed for https requests. You can get it by expanding [Pushy](https://pushy.me/) certificate in a web browser)
 * post data(got from from Pushy):
   * app key
